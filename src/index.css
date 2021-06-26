@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing:content-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*screen to display the components*/
+.screen {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 500px;
+  margin-top: 50px;
+  height: 300px;
+  width: 280px;
+  background-color: black;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px -4px 12px 12px grey
+}
+.display {
+  position: absolute;
+  top: 30px;
+  height: 80%;
+  width: 90%;
+  border: 3px solid black;
+  background-image: url("./images/ipod-screen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+}
+.display-music {
+  position: absolute;
+  top: 30px;
+  height: 80%;
+  width: 90%;
+  border: 3px solid black;
+  background-image: url("./images/music-screen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+}
+.mini-display {
+  height: 100%;
+  width: 50%;
+  background-color: #e5d3e8;
+  border-radius: 10px 0px 0px 10px;
+}
+.header {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  margin: 5px 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  height: 35px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.active-btn{
+  background-color: blue;
+}
+
+/*wheel to apply the zesture*/
+.wheel {
+  position: relative;
+  height: 280px;
+  width: 280px;
+  background-image: url("./images/ipod-wheel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 500px;
+  box-shadow:  0px 22px 12px 12px grey;
+  border-radius: 0px 0px 20px 20px;
+}
+/*buttons*/
+.home-btn {
+  position: absolute;
+  left: 106px;
+  top: 68px;
+  height: 43px;
+  width: 66px;
+  border: none;
+  background-color: #303030;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.enter-btn {
+  position: relative;
+  left: 101px;
+  top: 116px;
+  height: 60px;
+  width: 80px;
+  border: none;
+  background-color: #dbdee3;
+  border-radius: 37%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+/*Setting components*/
+.setting{
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/setting.jpg");
+  background-size: cover;
+}
+/*Game component*/
+.game{
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/ludo.jpg"); 
+  background-size: 252px 250px;;
+}
+/*CardFlow component*/
+.coverflow{
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/coverflow.jpg");
+  background-size: 252px 250px;;
+  
+}
+/*Song component*/
+.song{
+  height: 100%;
+  width: 100%; 
+  background-image: url('./images/song.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Album component*/
+.album{
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/album.jpg');
+  background-size: cover;
+}
+/*Artist component*/
+.artist{
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/artist.jpg');
+  background-size: cover;
+}
