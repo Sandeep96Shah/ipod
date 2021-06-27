@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ipod/static/css/main.8654b509.chunk.css",
+    "main.js": "/ipod/static/js/main.3087b702.chunk.js",
+    "main.js.map": "/ipod/static/js/main.3087b702.chunk.js.map",
+    "runtime-main.js": "/ipod/static/js/runtime-main.0ebbc872.js",
+    "runtime-main.js.map": "/ipod/static/js/runtime-main.0ebbc872.js.map",
+    "static/js/2.e572c402.chunk.js": "/ipod/static/js/2.e572c402.chunk.js",
+    "static/js/2.e572c402.chunk.js.map": "/ipod/static/js/2.e572c402.chunk.js.map",
+    "index.html": "/ipod/index.html",
+    "static/css/main.8654b509.chunk.css.map": "/ipod/static/css/main.8654b509.chunk.css.map",
+    "static/js/2.e572c402.chunk.js.LICENSE.txt": "/ipod/static/js/2.e572c402.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ipod/static/media/song.55c03b43.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ebbc872.js",
+    "static/js/2.e572c402.chunk.js",
+    "static/css/main.8654b509.chunk.css",
+    "static/js/main.3087b702.chunk.js"
+  ]
+}
